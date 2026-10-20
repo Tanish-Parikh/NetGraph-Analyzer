@@ -19,7 +19,8 @@ and `git diff --check` passes. Cloud deployment and public verification are pend
 The user authorized release publication on 20 October 2026: preserve the old remote version,
 review and test the current files, publish the necessary changes, tag the new version,
 then deploy to Streamlit Cloud. The baseline `v1.0.0` preserves commit
-`327db1920515bc9a7affa81e045783c916fe495e`. The new release is `v1.1.0` after CI passes.
+`327db1920515bc9a7affa81e045783c916fe495e`. Release `v1.1.0` is published at `e4070b7`; all 354 local tests and GitHub Linux CI passed.
+The user-owned public repository is now the deployment source; Saiyam's repository remains upstream.
 
 Before publishing, run:
 
@@ -39,7 +40,7 @@ Use Create app, then the option to deploy an existing app from GitHub:
 
 | Field | Value |
 |---|---|
-| Repository | `Saiyammiglani/Discrete-Mathematics-project` |
+| Repository | `Tanish-Parikh/NetGraph-Analyzer` |
 | Branch | The approved release branch containing the latest changes; use `main` after merge |
 | Main file path | `app.py` |
 | Python version, Advanced settings | `3.12` |

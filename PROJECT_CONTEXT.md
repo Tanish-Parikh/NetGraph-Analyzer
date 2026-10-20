@@ -119,6 +119,11 @@ Workflow: feature branches, PR to `main`, one second reviewer per module, CI mus
 
 ## 9. Change log
 
+- 2026-10-20 — Published v1.0.0 baseline and v1.1.0 release after 354 tests and successful Linux CI.
+  User requested a repository in their account; created Tanish-Parikh/NetGraph-Analyzer, pushed main
+  and both tags, then made it public with explicit authorization. It is now origin; Saiyam's repo
+  remains upstream. Streamlit deployment will use the user-owned repository.
+
 - 2026-10-20 — User authorized tags, GitHub publication and Streamlit deployment. Published baseline
   tag v1.0.0 at 327db19. Release review fixed CSV escaping/float precision and disconnected export
   titles; added regression coverage. Release target v1.1.0.

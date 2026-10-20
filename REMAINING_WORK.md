@@ -11,12 +11,12 @@ Owners follow the module split in `README.md`. Keep this file and `PROJECT_CONTE
 - [x] Exclude generated output from Git and refresh docs for the current UI.
 - [x] Release checks: 354 tests passed; `pip check` found no broken requirements; diff whitespace check passed.
 - [x] User authorized publishing; baseline remote commit preserved as `v1.0.0`.
-- [ ] Publish reviewed changes through CI and tag `v1.1.0`.
+- [x] Published reviewed changes after Linux CI; `v1.0.0` and `v1.1.0` are available.
+- [x] Created user-owned public repository `Tanish-Parikh/NetGraph-Analyzer` and pushed main and both tags.
 - [ ] Complete Cloud sign-in, select repository/branch and deploy.
 - [ ] Verify the public app and record its actual URL in README.
 
-No public deployment has been verified yet. Cloud currently shows the account setup form, which
-needs the account owner's details and terms acceptance. Local checks are not proof of a successful cloud build.
+No public deployment has been verified yet. Cloud account setup is complete; deployment now targets the user-owned repository. Local checks are not proof of a successful cloud build.
 
 ## Remaining tasks
 
