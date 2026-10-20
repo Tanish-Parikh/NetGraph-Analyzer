@@ -1,7 +1,7 @@
 # PROJECT_CONTEXT — NetGraph Analyzer
 
 > Living document. Update it with every meaningful change (what was built, what is pending, decisions).
-> Last updated: 2026-10-20 · Local MPSTME facility illustrations added; not yet committed or deployed
+> Last updated: 2026-10-20 · Released v1.1.0 and deployed to Streamlit Community Cloud
 
 ## 1. What this project is
 
@@ -86,7 +86,7 @@ necessary changes and tag the next release, then deploy to Streamlit. This super
 
 Full task list with owners: see [REMAINING_WORK.md](REMAINING_WORK.md).
 
-- Deploy to Streamlit Community Cloud and verify the public URL. Pins and deployment guide are prepared; publication and cloud account access remain pending. See DEPLOYMENT.md.
+- Deployment done: https://netgraph-mpstme.streamlit.app/ using Tanish-Parikh/NetGraph-Analyzer main. See DEPLOYMENT.md for verified results.
 - Manual interface checklist: sample → MST in ≤ 3 clicks, editor validation, step-through (see section 7).
 - Report (PDF) and slides: proofs of cut/cycle properties, complexity write-up, worked example (all three; Saiyam compiles).
 - 2-minute backup screen recording of the demo.
@@ -118,6 +118,11 @@ are illustrations inside a vertex, not additional nodes. The office sample and c
 Workflow: feature branches, PR to `main`, one second reviewer per module, CI must be green.
 
 ## 9. Change log
+
+- 2026-10-20 — Deployed the user-owned public repository to free Streamlit Community Cloud:
+  https://netgraph-mpstme.streamlit.app/. Python 3.12 selected, cloud build successful. Live MPSTME
+  and office costs, both completed algorithm traces, default outage, failure counts and CSV/PNG
+  downloads verified. Published the actual link and completed deployment checklist items.
 
 - 2026-10-20 — Published v1.0.0 baseline and v1.1.0 release after 354 tests and successful Linux CI.
   User requested a repository in their account; created Tanish-Parikh/NetGraph-Analyzer, pushed main

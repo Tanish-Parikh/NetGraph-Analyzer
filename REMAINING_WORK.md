@@ -3,7 +3,7 @@
 What is left after the first version of NetGraph Analyzer (merged to `main`, CI green, 354 tests in the latest full local run).
 Owners follow the module split in `README.md`. Keep this file and `PROJECT_CONTEXT.md` in sync.
 
-## Deployment in progress
+## Deployment completed
 
 - [x] Confirm chosen host: Streamlit Community Cloud; Python 3.12, entrypoint `app.py`.
 - [x] Pin the locally tested runtime dependencies; separate pytest into `requirements-dev.txt`.
@@ -13,17 +13,18 @@ Owners follow the module split in `README.md`. Keep this file and `PROJECT_CONTE
 - [x] User authorized publishing; baseline remote commit preserved as `v1.0.0`.
 - [x] Published reviewed changes after Linux CI; `v1.0.0` and `v1.1.0` are available.
 - [x] Created user-owned public repository `Tanish-Parikh/NetGraph-Analyzer` and pushed main and both tags.
-- [ ] Complete Cloud sign-in, select repository/branch and deploy.
-- [ ] Verify the public app and record its actual URL in README.
+- [x] Completed Cloud sign-in and deployed `main` / `app.py` on Python 3.12.
+- [x] Verified public costs, algorithm traces, failure counts, office sample and downloads; recorded the live URL in README.
 
-No public deployment has been verified yet. Cloud account setup is complete; deployment now targets the user-owned repository. Local checks are not proof of a successful cloud build.
+Live app: https://netgraph-mpstme.streamlit.app/ — free Streamlit Community Cloud deployment.
+The Linux cloud build and live browser checks both passed. Presentation-device checks remain separate.
 
 ## Remaining tasks
 
 | # | Task | Owner | Notes |
 |---|---|---|---|
-| 1 | Deploy to Streamlit Community Cloud | Arjun | Deployment guide prepared in `DEPLOYMENT.md`. Requires the current code on GitHub and a signed-in Cloud account. |
-| 2 | Put the verified public app link in `README.md` | Arjun | Dependency pins are prepared. Add the real URL and deployed commit only after public verification. |
+| 1 | Deploy to Streamlit Community Cloud | Arjun | Done: https://netgraph-mpstme.streamlit.app/ |
+| 2 | Put the verified public app link in `README.md` | Arjun | Done; runtime dependencies pinned and deployment checks recorded. |
 | 3 | Final presentation-device check | All | Local baseline browser checks passed on 20 Oct (desktop and phone-size emulation); recheck the illustrated MPSTME version on the actual presentation laptop and phone. See `PROJECT_CONTEXT.md` §7. |
 | 4 | Report (PDF) | Saiyam compiles, all write | Sections: modelling, properties, theory (cut and cycle property proofs), Kruskal, Prim, vulnerability, results, system design, complexity. Worked example and figures can come from the app's PNG export. |
 | 5 | Slides | All | Same sections as the report, plus a demo script. |

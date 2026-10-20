@@ -1,8 +1,15 @@
 # Streamlit Community Cloud deployment
 
-Status: local preparation complete; no cloud app or public URL verified yet.
-Local release checks: 354 tests passed, `pip check` reports no broken requirements,
-and `git diff --check` passes. Cloud deployment and public verification are pending.
+Status: deployed and verified on 20 October 2026.
+
+- Public URL: https://netgraph-mpstme.streamlit.app/
+- Source: `Tanish-Parikh/NetGraph-Analyzer`, branch `main`, entrypoint `app.py`.
+- Cloud build initially deployed commit `f3e79d1` (application release `v1.1.0` at `e4070b7`).
+- Python 3.12 selected; cloud build logs confirmed Python 3.12.15 and Streamlit 1.66.0.
+- 354 local tests passed; GitHub Linux CI passed in both repositories.
+- Live checks passed: MPSTME ₹38,000 / ₹16,000; Kruskal rejection at step 5 and completion
+  at step 6; Prim completion at step 5; default cable outage and bridge/cut-vertex counts;
+  office costs 59 / 24; CSV and PNG downloads (file contents/header verified).
 
 ## Stack and files
 

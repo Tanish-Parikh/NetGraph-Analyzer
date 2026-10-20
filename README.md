@@ -16,6 +16,10 @@ one switch, which is the graph vertex; furniture is decorative. Facility names f
 [published infrastructure](https://engineering.nmims.edu/academics/infrastructure/). The rooms, routes,
 equipment illustrations and installation estimates are a case study, not the real campus floor plan or network.
 
+**Live app:** [netgraph-mpstme.streamlit.app](https://netgraph-mpstme.streamlit.app/)
+
+**Repository:** [Tanish-Parikh/NetGraph-Analyzer](https://github.com/Tanish-Parikh/NetGraph-Analyzer)
+
 ## Run it
 
 ```bash
@@ -91,8 +95,8 @@ See [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for status, decisions and the full 
 ## Deploy (free)
 
 Deployment preparation uses **Streamlit Community Cloud**, Python **3.12**, and pinned runtime
-dependencies. No public deployment has been verified yet. See [DEPLOYMENT.md](DEPLOYMENT.md) for
-the exact repository settings and public-app checks. Keep the local app as a presentation backup.
+dependencies. The public app is live at [netgraph-mpstme.streamlit.app](https://netgraph-mpstme.streamlit.app/).
+See [DEPLOYMENT.md](DEPLOYMENT.md) for repository settings and verification results. Keep the local app as a presentation backup.
 
 ## Licence
 
