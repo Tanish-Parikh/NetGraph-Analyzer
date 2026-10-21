@@ -1,4 +1,4 @@
-# NetGraph Analyzer
+#NetGraph Analyzer
 
 **Graph Theory for Network Vulnerability and Secure Routing Analysis** — a Discrete Mathematics project
 (Graphs and Trees unit) by Tanish Parikh, Saiyam Miglani and Arjun Shetty.
